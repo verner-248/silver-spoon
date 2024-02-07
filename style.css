@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color:  whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: #e94d58;
+    font-size: 35px;
+}
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    border-radius: 48%;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.btn{
+    height: 50px; 
+    width: 100px;
+    position: absolute;
+    background-color:#DCCCFF ;
+    border: 2px solid black;
+    border-radius: 835px;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px gray;
+    margin-top: 100px;
+}
+ 
+.proposal{
+    padding-bottom: 20px;
+}
+#no{
+    margin-right: -200px;
+}
+#yes{
+    margin-left: -200px;
+}
