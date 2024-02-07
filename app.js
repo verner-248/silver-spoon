@@ -7,6 +7,8 @@ const no_btn=document.querySelector("#no");
 yes_btn.addEventListener("click", () =>{
     prop.innerHTML="Yayyeeeeee😍😍, Now get ready for my love beam";
      gif.src = "assets/kiss.gif";
+     yes_btn.style.visibility="hidden";
+     no_btn.style.visibility="hidden";
 });
 
 no_btn.addEventListener("mouseover", () =>{
